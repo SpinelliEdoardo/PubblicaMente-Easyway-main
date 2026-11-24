@@ -1,0 +1,301 @@
+[ {
+  "errorMessage" : {
+    "messageId" : 0,
+    "gtfsRtFeedIterationModel" : null,
+    "validationRule" : {
+      "errorId" : "E028",
+      "severity" : "ERROR",
+      "title" : "Vehicle position outside agency coverage area",
+      "errorDescription" : "The vehicle position should be inside the agency coverage area.  This is defined as within roughly 1/8 of a mile (200 meters) of the GTFS shapes.txt data, or stops.txt locations if the GTFS feed doesn't include shapes.txt.",
+      "occurrenceSuffix" : "- vehicle should be within area"
+    },
+    "errorDetails" : null
+  },
+  "occurrenceList" : [ {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 8005U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 8049U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 5041U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 5026U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 3318U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 3323U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 9632U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 827U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 9216U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 3311U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 1646U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 66U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 849U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 842U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle.id 9032U at (0.0,0.0) is more than 1609.0 meters (1,00 mile(s)) outside entire GTFS shapes.txt coverage area"
+  } ]
+}, {
+  "errorMessage" : {
+    "messageId" : 0,
+    "gtfsRtFeedIterationModel" : null,
+    "validationRule" : {
+      "errorId" : "W007",
+      "severity" : "WARNING",
+      "title" : "Refresh interval is more than 35 seconds",
+      "errorDescription" : "GTFS-realtime feeds should be refreshed at least every 30 seconds",
+      "occurrenceSuffix" : "which is less than the recommended interval of 35 seconds"
+    },
+    "errorDetails" : null
+  },
+  "occurrenceList" : [ {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "52 second interval between consecutive header.timestamps"
+  } ]
+}, {
+  "errorMessage" : {
+    "messageId" : 0,
+    "gtfsRtFeedIterationModel" : null,
+    "validationRule" : {
+      "errorId" : "E004",
+      "severity" : "ERROR",
+      "title" : "GTFS-rt route_id does not exist in GTFS data",
+      "errorDescription" : "All route_ids provided in the GTFS-rt feed must exist in the GTFS data",
+      "occurrenceSuffix" : "does not exist in the GTFS data routes.txt"
+    },
+    "errorDetails" : null
+  },
+  "occurrenceList" : [ {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "vehicle_id 9483U route_id FLEU"
+  } ]
+}, {
+  "errorMessage" : {
+    "messageId" : 0,
+    "gtfsRtFeedIterationModel" : null,
+    "validationRule" : {
+      "errorId" : "W006",
+      "severity" : "WARNING",
+      "title" : "trip missing trip_id",
+      "errorDescription" : "trip should include a trip_id",
+      "occurrenceSuffix" : "does not contain a trip_id"
+    },
+    "errorDetails" : null
+  },
+  "occurrenceList" : [ {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9628"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 6013"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 8034"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 811"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 6045"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 5020"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 5039"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9473"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 5016"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 5026"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 5005"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 3439"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 3401"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 3318"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 3323"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9098"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9072"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9118"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 3402"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 2440"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9632"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9316"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9317"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9321"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9329"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9320"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 827"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9326"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9261"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9216"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9335"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9067"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 3311"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 1393"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 850"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9218"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 66"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 3324"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 19030"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9032"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 3409"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9429"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9483"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "entity ID 9457"
+  } ]
+} ]

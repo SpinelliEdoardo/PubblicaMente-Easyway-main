@@ -1,0 +1,425 @@
+[ {
+  "errorMessage" : {
+    "messageId" : 0,
+    "gtfsRtFeedIterationModel" : null,
+    "validationRule" : {
+      "errorId" : "E001",
+      "severity" : "ERROR",
+      "title" : "Not in POSIX time",
+      "errorDescription" : "All timestamps must be in POSIX time (i.e., number of seconds since January 1st 1970 00:00:00 UTC)",
+      "occurrenceSuffix" : "is not POSIX time"
+    },
+    "errorDetails" : null
+  },
+  "occurrenceList" : [ {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert in entity 67c087e9810e464d79c5cbdf active_period.end 2076090000"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert in entity 68497152810e464d793774cc active_period.end 2065190400"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert in entity 6849724b810e464d7937afac active_period.end 2065190400"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert in entity 6835c4bd810e464d792ae2af active_period.end 2063908740"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert in entity 66f6ab173b9a7b0976136f72 active_period.end 2042999940"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert in entity 6437b290cd23a809732b4569 active_period.end 1997035140"
+  } ]
+}, {
+  "errorMessage" : {
+    "messageId" : 0,
+    "gtfsRtFeedIterationModel" : null,
+    "validationRule" : {
+      "errorId" : "E011",
+      "severity" : "ERROR",
+      "title" : "GTFS-rt stop_id does not exist in GTFS data",
+      "errorDescription" : "All stop_ids referenced in GTFS-rt feeds must exist in GTFS stops.txt",
+      "occurrenceSuffix" : "does not exist in GTFS data stops.txt"
+    },
+    "errorDetails" : null
+  },
+  "occurrenceList" : [ {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6af6d63322bb480c377e9796 stop_id 5739"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6af6d63322bb480c377e9796 stop_id 8009"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6af6d63322bb480c377e9796 stop_id 5740"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6afae0ec22bb480c377eb1c4 stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6afae0ec22bb480c377eb1c4 stop_id 4551"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6afae0ec22bb480c377eb1c4 stop_id 5170"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6af8615522bb480c377ea2e1 stop_id 8801"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57022bb480c377e4b56 stop_id 5506"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57022bb480c377e4b56 stop_id 5507"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57022bb480c377e4b56 stop_id 7197"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57022bb480c377e4b56 stop_id 7198"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 4938"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 5170"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 5505"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 5506"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 5507"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 6113"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 7196"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 7197"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aedc57322bb480c377e4bad stop_id 7198"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6aeddbb422bb480c377e4c13 stop_id 3646"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6adb535a22bb480c377d9ae7 stop_id 8019"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6ad5e82722bb480c377d6610 stop_id 4359"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6ad5e82722bb480c377d6610 stop_id 8019"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6ab6700d22bb480c377c871f stop_id 8019"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 1702"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 1715"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 1725"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 1777"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 8019"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 3277"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 3289"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 3838"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 3839"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 3840"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4e6db322bb480c3779f16c stop_id 3841"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a4bc7d022bb480c3779c1cb stop_id 8944"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a3931a622bb480c377929a6 stop_id 7725"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a32780f22bb480c3778abeb stop_id 8944"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a15561a22bb480c37779452 stop_id 8801"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a15561a22bb480c37779452 stop_id 8803"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a15561a22bb480c37779452 stop_id 8804"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a15561a22bb480c37779452 stop_id 8813"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6a15561a22bb480c37779452 stop_id 8819"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f8987f3bab3f092e507eb8 stop_id 3037"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f8987f3bab3f092e507eb8 stop_id 4359"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f8987f3bab3f092e507eb8 stop_id 8019"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f8987f3bab3f092e507eb8 stop_id 8921"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f8987f3bab3f092e507eb8 stop_id 8940"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f89be03bab3f092e507fda stop_id 4359"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f89be03bab3f092e507fda stop_id 8019"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0f10fffd3df7184bea741 stop_id 706"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69d64eabb4336509698e5a0c stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69d64eabb4336509698e5a0c stop_id 4473"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69d64eabb4336509698e5a0c stop_id 4938"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0e968ffd3df7184bc4e9f stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0e9f8ffd3df7184bc8535 stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0e9f8ffd3df7184bc8535 stop_id 4938"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0ec22ffd3df7184bd44db stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0ec22ffd3df7184bd44db stop_id 4551"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0ec22ffd3df7184bd44db stop_id 5170"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0ecdbffd3df7184bd7e0f stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0ecdbffd3df7184bd7e0f stop_id 4473"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0ecdbffd3df7184bd7e0f stop_id 1391"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0eb25ffd3df7184bcef34 stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69f0eb25ffd3df7184bcef34 stop_id 1391"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4449"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4450"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4451"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4452"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4453"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4454"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4455"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4462"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4463"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd0197b43365096940f01a stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4449"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4450"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4451"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4452"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4453"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4454"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4455"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4458"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4459"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4460"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4462"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4463"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69bd031bb4336509694164e5 stop_id 4466"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 69206ca83864840d4a31ced6 stop_id 8019"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6ad9ec8622bb480c377d897c stop_id 3646"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6ad9ee3622bb480c377d89eb stop_id 3646"
+  }, {
+    "occurrenceId" : 0,
+    "messageLogModel" : null,
+    "prefix" : "alert entity ID 6ad9f41622bb480c377d8af1 stop_id 7088"
+  } ]
+} ]

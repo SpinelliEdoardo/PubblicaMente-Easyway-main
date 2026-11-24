@@ -1,0 +1,32 @@
+# Screenshot escluso per scelta del gruppo
+WhatsApp Image 2026-11-19 at 15.09.19.jpeg
+
+# File temporanei di Office
+~$*
+
+# Python, notebook e test
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Frontend
+node_modules/
+
+# Database locali: si ricreano dal codice
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+
+# GTFS estratto dallo zip: stop_times.txt supera il limite di 100 MB di GitHub
+Datasets/gtt_gtfs/
+stop_times.txt
+
+# Variabili d'ambiente e chiavi
+.env
+.env.*
+!.env.example

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EasyWay Torino</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/static/stile.css">
+</head>
+<body>
+  <header>
+    <h1>EasyWay</h1>
+    <p id="orologio">Caricamento...</p>
+  </header>
+
+  <main>
+    <section id="pannello">
+      <label for="partenza">Partenza</label>
+      <input id="partenza" type="text" placeholder="Scrivi il nome della fermata" autocomplete="off">
+      <ul id="suggerimenti-partenza" class="suggerimenti"></ul>
+
+      <label for="arrivo">Arrivo</label>
+      <input id="arrivo" type="text" placeholder="Scrivi il nome della fermata" autocomplete="off">
+      <ul id="suggerimenti-arrivo" class="suggerimenti"></ul>
+
+      <fieldset>
+        <legend>Criterio e livello mappa</legend>
+        <label for="criterio">Criterio percorso</label>
+        <select id="criterio">
+          <option value="piu_veloce">Piu veloce</option>
+          <option value="meno_cambi">Meno cambi</option>
+          <option value="accessibile">Accessibile</option>
+        </select>
+        <label class="opzione-inlinea">
+          <input id="mostra-veicoli" type="checkbox" checked>
+          Mostra veicoli (fotografia 18/11 15:50)
+        </label>
+      </fieldset>
+
+      <button id="calcola" type="button" disabled>Calcola il percorso</button>
+
+      <div id="risultato"></div>
+      <div id="partenze"></div>
+      <section id="sezione-avvisi">
+        <h2>Avvisi attivi rete urbana</h2>
+        <div id="avvisi">Caricamento avvisi...</div>
+      </section>
+    </section>
+
+    <div id="mappa"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

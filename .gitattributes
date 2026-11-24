@@ -1,0 +1,15 @@
+* text=auto
+
+*.ipynb text eol=lf
+
+*.bin binary
+*.zip binary
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary
+*.pptx binary
+*.pdf binary
